@@ -1,0 +1,20 @@
+# Web framework + server
+fastapi
+uvicorn[standard]
+
+# ORM + database
+sqlalchemy
+alembic
+psycopg[binary]        # Postgres driver (production)
+python-dotenv
+
+# Config
+pydantic-settings
+
+# Auth
+bcrypt
+pyjwt
+
+# Testing
+pytest
+httpx
